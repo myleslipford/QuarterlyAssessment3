@@ -46,3 +46,26 @@ class QuizWindow:
 
         self.create_widgets()
         self.display_question()  # Call display_question after creating all widgets
+        
+    def create_widgets(self):
+        self.question_label = Label(self.root, text="")
+        self.question_label.pack(padx=10, pady=10)
+
+        self.options = []
+        for i in range(4):
+            option = StringVar()
+            self.options.append(option)
+            ttk.Radiobutton(self.root, textvariable=option, variable=self.selected_option, value=str(i)).pack(anchor="w", padx=10)
+
+        self.feedback_label = Label(self.root, text="")
+        self.feedback_label.pack(pady=5)
+
+        self.submit_button = Button(self.root, text="Submit", command=self.check_answer)
+        self.submit_button.pack(pady=5)
+
+        self.next_button = Button(self.root, text="Next Question", command=self.display_next_question)
+        self.next_button.pack(pady=5)
+        self.next_button.pack_forget()  # Hide initially
+
+        self.score_label = Label(self.root, text="")
+        self.score_label.pack(pady=5)
