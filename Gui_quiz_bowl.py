@@ -13,3 +13,12 @@ class QuizBowlGame:
         self.category_var.set(self.categories[0])
 
         self.create_widgets()
+        
+    def create_widgets(self):
+            Label(self.master, text="Select a Category:").grid(row=0, column=0, padx=10, pady=10)
+
+            category_menu = OptionMenu(self.master, self.category_var, *self.categories)
+            category_menu.grid(row=0, column=1, padx=10, pady=10)
+
+            start_button = Button(self.master, text="Start Quiz Now", command=self.start_quiz)
+            start_button.grid(row=1, columnspan=2, padx=10, pady=10)
