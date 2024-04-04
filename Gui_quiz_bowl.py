@@ -112,3 +112,17 @@ class QuizWindow:
 
         self.submit_button.pack_forget()  # Hide submit button
         self.next_button.pack()  # Show next button
+
+    def display_next_question(self):
+        self.current_question_index += 1
+        self.feedback_label.config(text="")
+        self.submit_button.pack()  # Show submit button
+        self.next_button.pack_forget()  # Hide next button
+        self.display_question()
+
+    def show_score(self):
+        score_text = f"You have completed the quiz!\nYour score: {self.correct_answers}/{self.total_questions}"
+        self.score_label.config(text=score_text)
+
+        back_to_menu_button = Button(self.root, text="Back to Menu", command=self.back_to_menu)
+        back_to_menu_button.pack(pady=10)
