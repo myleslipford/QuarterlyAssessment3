@@ -46,7 +46,7 @@ class QuizWindow:
 
         self.create_widgets()
         self.display_question()  # Call display_question after creating all widgets
-        
+
     def create_widgets(self):
         self.question_label = Label(self.root, text="")
         self.question_label.pack(padx=10, pady=10)
@@ -69,3 +69,12 @@ class QuizWindow:
 
         self.score_label = Label(self.root, text="")
         self.score_label.pack(pady=5)
+
+
+    def load_questions_from_db(self):
+        conn = sqlite3.connect("QuestionsDatabase.db")
+        c = conn.cursor()
+        c.execute(f"SELECT question, option1, option2, option3, option4, answer FROM {self.category.replace(' ', '_')}")
+        questions = c.fetchall()
+        conn.close()
+        return questions
