@@ -126,3 +126,17 @@ class QuizWindow:
 
         back_to_menu_button = Button(self.root, text="Back to Menu", command=self.back_to_menu)
         back_to_menu_button.pack(pady=10)
+        
+    def back_to_menu(self):
+        self.root.destroy()
+        root = Tk()
+        app = QuizBowlGame(root)
+        root.mainloop()
+
+def main():
+    root = Tk()
+    app = QuizBowlGame(root)
+    root.mainloop()
+
+if __name__ == "__main__":
+    main()
