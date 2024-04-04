@@ -78,3 +78,14 @@ class QuizWindow:
         questions = c.fetchall()
         conn.close()
         return questions
+    
+
+    def display_question(self):
+        if self.current_question_index < len(self.questions):
+            question, *options, correct_answer = self.questions[self.current_question_index]
+            self.question_label.config(text=question)
+            self.selected_option.set("")  # Clear selection
+            for i in range(4):
+                self.options[i].set(options[i])
+        else:
+            self.show_score()
