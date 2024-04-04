@@ -172,4 +172,77 @@ sample_questions = {
     "C) UPDATE")
     ],
 
+    'General Biology II': [
+    ('1. What is the primary function of DNA?',
+      'A) Energy storage',
+      'B) Structural support',
+      'C) Genetic information storage', 
+      'D) Enzyme production', 
+      'C) Genetic information storage'),
+
+    ('2. Which organelle is responsible for protein synthesis?',
+    'A) Golgi apparatus',
+    'B) Endoplasmic reticulum',
+    'C) Ribosome', 
+    'D) Nucleus', 
+    'C) Ribosome'),
+
+    ('3. What is the powerhouse of the cell?',
+    'A) Mitochondrion',
+    'B) Nucleus',
+    'C) Chloroplast', 
+    'D) Endoplasmic reticulum', 
+    'A) Mitochondrion'),
+
+    ('4. What is the function of chlorophyll in plant cells?',
+    "A) Photosynthesis",
+    "B) Cell division",
+    "C) Protein synthesis", 
+    "D) Energy storage", 
+    "A) Photosynthesis"),
+
+    ("5. Which of the following is not a characteristic of prokaryotic cells?",
+    "A) Presence of a nucleus",
+    "B) Lack of membrane-bound organelles",
+    "C) Smaller size compared to eukaryotic cells",
+    "D) Presence of ribosomes",
+    "A) Presence of a nucleus"
+    ),
+
+    ('6. Which cellular structure is responsible for cell movement?',
+    "A) Flagellum",
+    "B) Cilium",
+    "C) Microvilli",
+    "D) Nucleolus", 
+    "A) Flagellum"),
+
+    ('7. What is the process by which cells replicate their DNA?',
+    "A) Translation",
+    "B) Transcription",
+    "C) Reproduction",
+    "D) DNA replication",
+    'D) DNA replication'),
+
+    ('8. Which molecule serves as the primary energy source for cellular activities?',
+    "A) Glucose",
+    "B) ATP",
+    "C) DNA",
+    "D) RNA", 
+    "B) ATP"),
+
+    ('9. What is the function of the cell membrane?',
+    "A) Regulation of cell processes",
+    "B) Storage of genetic information",
+    "C) Synthesis of proteins",
+    "D) Control of cellular respiration",
+    'A) Regulation of cell processes'),
+
+    ("10. Which organelle is responsible for detoxification in liver cells?",
+    "A) Nucleus",
+    "B) Golgi apparatus",
+    "C) Smooth endoplasmic reticulum",
+    "D) Lysosome",
+    "C) Smooth endoplasmic reticulum")
+    ],
+
 }
