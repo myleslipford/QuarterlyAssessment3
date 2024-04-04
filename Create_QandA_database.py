@@ -244,5 +244,80 @@ sample_questions = {
     "D) Lysosome",
     "C) Smooth endoplasmic reticulum")
     ],
+    
+    'Mgmt organization Behavior': [
+        ('1. What is the primary focus of organizational behavior?',
+      'A) Studying individual behavior in organizations',
+      'B) Analyzing financial performance',
+      'C) Developing marketing strategies', 
+      'D) Implementing technological innovations', 
+      'A) Studying individual behavior in organizations'),
+
+    ('2. What is the Hawthorne effect?',
+    'A) The tendency for individuals to perform better when they are aware of being observed',
+    'B) The impact of economic conditions on organizational behavior',
+    'C) The influence of social norms on decision-making processes', 
+    'D) The relationship between job satisfaction and productivity', 
+    'A) The tendency for individuals to perform better when they are aware of being observed'),
+
+    ('3. Which theory of motivation emphasizes the role of intrinsic factors?',
+    'A) Expectancy theory',
+    'B) Two-factor theory',
+    'C) Equity theory', 
+    'D) Self-determination theory', 
+    'D) Self-determination theory'),
+
+    ('4. What is the primary goal of organizational development (OD)?',
+    "A) Improving organizational effectiveness and employee well-being",
+    "B) Maximizing short-term profits",
+    "C) Minimizing employee turnover", 
+    "D) Reducing production costs", 
+    "A) Improving organizational effectiveness and employee well-being"),
+
+    ("5. Which leadership style involves high concern for both people and production?",
+    "A) Autocratic",
+    "B) Laissez-faire",
+    "C) Transactional",
+    "D) Transformational",
+    "D) Transformational"
+    ),
+
+    ('6. What is the process of evaluating and rewarding employee performance?',
+   "A) Performance appraisal",
+   "B) Job analysis",
+   "C) Recruitment",
+    "D) Training", 
+    "A) Performance appraisal"),
+
+    ('7. Which conflict resolution strategy involves finding a solution that satisfies both parties?',
+    "A) Avoidance",
+    "B) Accommodation",
+    "C) Collaboration",
+    "D) Competition",
+    'C) Collaboration'),
+
+    ('8. What is the purpose of job enrichment?',
+    "A) Increasing job specialization",
+    "B) Reducing job complexity",
+    "C) Adding variety and challenge to a job",
+    "D) Decreasing employee autonomy", 
+    "C) Adding variety and challenge to a job"),
+
+    ('9. What is the primary focus of organizational culture?',
+    "A) Employee job satisfaction",
+    "B) Workplace diversity",
+    "C) Shared values and beliefs",
+    "D) Technological innovation",
+    'C) Shared values and beliefs'),
+
+    ("10. Which type of organizational structure emphasizes flexibility and decentralized decision-making?",
+    "A) Functional",
+    "B) Divisional",
+    "C) Matrix",
+    "D) Organic",
+    "D) Organic")
+    ],
+
+
 
 }
