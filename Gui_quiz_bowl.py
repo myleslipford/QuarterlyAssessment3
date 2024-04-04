@@ -89,3 +89,26 @@ class QuizWindow:
                 self.options[i].set(options[i])
         else:
             self.show_score()
+
+    def check_answer(self):
+        selected_option = self.selected_option.get()
+
+        if selected_option == "":
+            self.feedback_label.config(text="Please select an option.", fg="red")
+            return
+
+        selected_option = int(selected_option)
+        correct_answer = self.questions[self.current_question_index][-1]
+        correct_answer_words = correct_answer.split()  # Split correct answer into words
+
+        selected_option_text = self.options[selected_option].get()
+        selected_option_words = selected_option_text.split()  # Split selected option into words
+
+        if all(word in selected_option_words for word in correct_answer_words):
+            self.feedback_label.config(text="Correct!", fg="green")
+            self.correct_answers += 1
+        else:
+            self.feedback_label.config(text=f"Incorrect. The correct answer is: {correct_answer}", fg="red")
+
+        self.submit_button.pack_forget()  # Hide submit button
+        self.next_button.pack()  # Show next button
