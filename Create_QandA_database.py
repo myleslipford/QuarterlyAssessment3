@@ -244,7 +244,7 @@ sample_questions = {
     "D) Lysosome",
     "C) Smooth endoplasmic reticulum")
     ],
-    
+
     'Mgmt organization Behavior': [
         ('1. What is the primary focus of organizational behavior?',
       'A) Studying individual behavior in organizations',
@@ -318,6 +318,79 @@ sample_questions = {
     "D) Organic")
     ],
 
+    'Business Applications': [
+    ('1. What is the primary purpose of a balance sheet?',
+      'A) To show a company\'s revenues and expenses over a period of time',
+      'B) To provide information about a company\'s cash flows',
+      'C) To report a company\'s financial position at a specific point in time', 
+      'D) To outline a company\'s business strategy', 
+      'C) To report a company\'s financial position at a specific point in time'),
+
+    ('2. What is the function of a profit and loss statement (P&L)?',
+    'A) To show a company\'s revenues and expenses over a period of time',
+    'B) To provide information about a company\'s cash flows',
+    'C) To report a company\'s financial position at a specific point in time', 
+    'D) To outline a company\'s business strategy', 
+    'A) To show a company\'s revenues and expenses over a period of time'),
+
+    ('3. Which financial metric indicates a company\'s ability to pay off short-term liabilities with its current assets?',
+    'A) Debt-to-equity ratio',
+    'B) Return on investment (ROI)',
+    'C) Current ratio', 
+    'D) Earnings per share (EPS)', 
+    'C) Current ratio'),
+
+    ('4. What is the purpose of financial forecasting?',
+    "A) To predict a company's future stock price",
+    "B) To estimate future cash flows and financial performance",
+    "C) To calculate the company's net income for the current year", 
+    "D) To evaluate the company's return on investment (ROI)", 
+    "B) To estimate future cash flows and financial performance"),
+
+    ("5. Which financial statement shows a company's revenues, expenses, and net income over a period of time?",
+    "A) Balance sheet",
+    "B) Income statement",
+    "C) Statement of cash flows",
+    "D) Statement of retained earnings",
+    "B) Income statement"
+    ),
+
+    ('6. What is the purpose of a cash flow statement?',
+   "A) To report a company's financial position at a specific point in time",
+   "B) To show a company's revenues and expenses over a period of time",
+   "C) To provide information about a company's cash flows",
+    "D) To outline a company's business strategy", 
+    "C) To provide information about a company's cash flows"),
+
+    ('7. Which financial ratio measures a company\'s efficiency in using its assets to generate revenue?',
+    "A) Return on equity (ROE)",
+    "B) Gross profit margin",
+    "C) Asset turnover ratio",
+    "D) Price-to-earnings (P/E) ratio",
+    'C) Asset turnover ratio'),
+
+    ('8. What is the purpose of financial statement analysis?',
+    "A) To evaluate a company's stock price",
+    "B) To assess a company's financial health and performance",
+    "C) To determine a company's market share",
+    "D) To calculate a company's earnings per share (EPS)", 
+    "B) To assess a company's financial health and performance"),
+
+    ('9. Which financial metric measures a company\'s profitability relative to its shareholders\' equity?',
+    "A) Return on equity (ROE)",
+    "B) Gross profit margin",
+    "C) Debt-to-equity ratio",
+    "D) Asset turnover ratio",
+    'A) Return on equity (ROE)'),
+
+    ("10. What is the primary goal of financial management in a business?",
+    "A) To maximize shareholder wealth",
+    "B) To minimize employee turnover",
+    "C) To increase market share",
+    "D) To reduce operating expenses",
+    "A) To maximize shareholder wealth"
+    )
+    ],
 
 
 }
