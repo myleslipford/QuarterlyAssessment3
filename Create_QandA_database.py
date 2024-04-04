@@ -391,6 +391,14 @@ sample_questions = {
     "A) To maximize shareholder wealth"
     )
     ],
-
-
 }
+
+for category, questions in sample_questions.items():
+    cursor.executemany(f'''
+        INSERT INTO {category.replace(" ", "_")} (question, option1, option2, option3, option4, answer)
+        VALUES (?, ?, ?, ?, ?, ?);
+    ''', questions)
+
+# Commit changes and close the connection
+conn.commit()
+conn.close()
